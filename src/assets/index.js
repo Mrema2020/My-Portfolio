@@ -29,6 +29,14 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import udsmLogo from "./udsmLogo.png";
+import rahisiLogo from "./rahisiLogo.png";
+import dart from "./dart.png"
+import flutter from "./flutter.png"
+import ios from "./ios.png"
+import java from "./java.png"
+import android from "./android.png"
+import tanesco from "./tanesco.png"
 
 export {
   logo,
@@ -59,4 +67,12 @@ export {
   carrent,
   jobit,
   tripguide,
+  udsmLogo,
+  rahisiLogo,
+  dart,
+  flutter,
+  java,
+  ios,
+  android,
+  tanesco
 };

@@ -23,6 +23,14 @@ import {
     jobit,
     tripguide,
     threejs,
+    udsmLogo,
+    rahisiLogo,
+    dart,
+  flutter,
+  java,
+  ios,
+  android,
+  tanesco
   } from "../assets";
   
   export const navLinks = [
@@ -46,15 +54,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React.js Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Mobile Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Flutter Developer",
       icon: creator,
     },
   ];
@@ -73,33 +81,42 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Tailwind CSS",
+      icon: tailwind,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "dart",
+      icon: dart,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "flutter",
+      icon: flutter,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "java",
+      icon: java,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "android",
+      icon: android,
     },
+  
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "ios",
+      icon: ios,
     },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
     {
       name: "git",
       icon: git,
@@ -108,44 +125,41 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Mobile Apps Developer And Machine Learning Expert",
+      company_name: "UDICTI",
+      icon: udsmLogo,
+      iconBg: "#FFF",
+      date: "July 2021 - September 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining mobile applications using Flutter and Machine Learning technology.",
+        "Intergrating an Artificial Intelligence model to mobile App, to predict skin disease by uploading the picture.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Implementing responsive design and ensuring cross-platform compatibility such as Android and iOS.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    // {
+    //   title: "React Native Developer",
+    //   company_name: "Tesla",
+    //   icon: tesla,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2021 - Feb 2022",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
     {
       title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
+      company_name: "Tanesco",
+      icon: tanesco,
+      iconBg: "#FFF",
       date: "Jan 2022 - Jan 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
@@ -155,15 +169,15 @@ import {
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Software Developer",
+      company_name: "Rahisi Solutions",
+      icon: rahisiLogo,
+      iconBg: "#ffff",
+      date: "Febr 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Developing and maintaining mobile applications using Flutter, Android Java and other related technologies.",
+        "Collaborating with the back-end, front-end teams and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-platform compatibility for android and iOS.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
